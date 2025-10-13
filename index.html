@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Fuga da masmorra.Nosso protagonista acaba de ser preso de forma injusta pelo novo rei bastardo, injuriado pela sua prisão ele pensa em formas de fugir.</p>
+            <button class="btn-proximo" data-proximo="1">Subornar o guarda deformado</button>
+            <button class="btn-proximo" data-proximo="2">conseguir disfarces</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>O guarda não sabe nem falar, ele recebeu uma ordem de guardar a sua cela e esta irredutível. Você está gravemente ferido</p>
+            <button class="btn-proximo" data-proximo="3">Ir a enfermaria pela ventilação</button>
+            <button class="btn-proximo" data-proximo="4">r atrás de socorro na enfermaria pela frente</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Como o guarda não tem suas capacidades cognitivas bem formadas por fruto de gerações de incesto, é bem fácil de enganar ele.Você está vivo</p>
+            <button class="btn-proximo" data-proximo="5">Ir atrás de chaves na capela</button>
+            <button class="btn-proximo" data-proximo="6">Ir atrás de chaves na camara de tortura</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você consegue pegar algumas ataduras e anestesia. Você consegue uma chave. Você adormece por pouco tempo</p>
+            <button class="btn-proximo" data-proximo="7">Continuar seguindo</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Os guardas não socorreriam um fugitivo.Você está morto.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você chega em um horário vazio e pega a chave de forma fácil</p>
+            <button class="btn-proximo" data-proximo="7">Continuar seguindo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você encontra um guarda torturando um prisioneiro.Você morreu</p>
+            
+
+        <div class="passo" id="passo-7">
+            <p>Você encontra uma porta para subir ao andar mais acima. Você usa a chave</p>
+            <p>Você encontra um guarda mas ele é diferente doque os outros.</p>
+            <button class="btn-proximo" data-proximo="9">Conversar com ele</button>
+            <button class="btn-proximo" data-proximo="10">Batalhar com ele</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
+                cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
